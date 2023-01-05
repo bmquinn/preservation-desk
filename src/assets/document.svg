@@ -1,0 +1,29 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 739 739"
+  shape-rendering="geometricPrecision"
+  text-rendering="geometricPrecision"
+>
+  <rect
+    id="outline"
+    width="700"
+    height="700"
+    rx="0"
+    ry="0"
+    transform="translate(19.5 19.5)"
+    fill="none"
+    stroke="#4e2d83"
+    stroke-width="40"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    id="document"
+    d="M265.32155,570.36388c-21.53911,0-39-14.55227-39-32.50342v-336.72092c0-17.95115,17.46089-32.50342,39-32.50342h191.51396l55.84293,51.07954v318.1448c0,17.95115-17.46089,32.50342-39,32.50342h-208.35689Zm205.58399-281.4038v-12.05359h-202.81109v12.05359h202.81109Zm0,43.28336v-12.05359h-202.81109v12.05359h202.81109Zm0,43.28336v-12.05359h-202.81109v12.05359h202.81109ZM456.83551,219.71566h45.0665l-45.0665-42.65015v42.65015Z"
+    fill="#4e2d83"
+    stroke-width="0"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

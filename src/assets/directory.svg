@@ -1,0 +1,37 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 739 739"
+  shape-rendering="geometricPrecision"
+  text-rendering="geometricPrecision"
+>
+  <rect
+    id="outline"
+    width="700"
+    height="700"
+    rx="0"
+    ry="0"
+    transform="translate(19.5 19.5)"
+    fill="#fff"
+    stroke="#4e2d83"
+    stroke-width="40"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M206.62318,512.67839c-22.09139,0-40-17.90861-40-40v-206.35679c0-18.49226,12.54861-34.05363,29.59503-38.63331v-22.79006c0-5.78509,7.15528-10.47484,15.98176-10.47484h130.15291l46.95346,31.89821h143.07047c22.09139,0,40,17.90861,40,40v206.35679c0,22.09139-17.90861,40-40,40h-325.75363Z"
+    fill="#4e2d83"
+    stroke-width="0"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M0,40C0,17.90861,17.90861,0,40,0h325.753639c22.09139,0,40,17.90861,40,40v206.356786c0,22.09139-17.90861,40-40,40h-325.753639c-22.09139,0-40-17.90861-40-40L0,40Z"
+    transform="matrix(1.035429 0-.18312 0.861512 228.65429 250.150096)"
+    fill="#4e2d83"
+    stroke="#fff"
+    stroke-width="16"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

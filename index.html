@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tauri App</title>
+    <script type="module" src="/src/main.ts" defer></script>
+  </head>
+
+  <body>
+    <nav
+      class="top-0 sticky flex items-center justify-between flex-wrap bg-nu-purple-30 p-6"
+    >
+      <div class="flex items-center flex-no-shrink text-white mr-6">
+        <img class="w-6 h-6" src="/src/assets/logo.svg" />
+        <span class="font-semibold text-xl tracking-tight ml-2"
+          >PreservationDesk</span
+        >
+      </div>
+      <button id="reload" onClick="window.location.reload();">
+        <img class="w-6 h-6" src="/src/assets/reload.svg" />
+      </button>
+    </nav>
+    <div id="drop-zone" class="overflow-hidden">
+      <div
+        class="fixed top-0 left-0 w-full h-full flex items-center justify-center z-50"
+      >
+        <div
+          class="h-4/6 md:w-3/4 lg:w-1/2 rounded-lg bg-white shadow-xl outline-dashed outline-2 outline-offset-[-14px] outline-gray-500 flex items-center justify-center text-xl text-gray-700"
+        >
+          <h2 class="text-2xl font-semibold text-gray-700 m-4">
+            Drop files here
+          </h2>
+          <img class="w-10 h-10" src="/src/assets/dropbox.svg" />
+        </div>
+      </div>
+      <div class="fixed w-full h-full bg-gray-200 bg-opacity-80 z-20"></div>
+    </div>
+    <div
+      id="file-info"
+      class="p-6 grid gap-8 grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 3xl:grid-cols-4"
+    ></div>
+  </body>
+</html>
